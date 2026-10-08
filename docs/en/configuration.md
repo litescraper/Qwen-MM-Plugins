@@ -91,6 +91,7 @@ come from [`CONFIG_FIELDS`](../../src/shared/env.py); `—` means unset or disab
 |---|---|---|
 | `QWEN_MM_SEARCH_BACKEND` | auto | text search backend (auto: serper > tavily > exa > serply; or choose one) |
 | `SERPER_API_KEY` | — | Serper web_search / web_extractor and Serper-only image_search *(secret)* |
+| `SERPER_BASE_URL` | https://google.serper.dev | Serper-compatible API base URL |
 | `TAVILY_API_KEY` | — | Tavily web_search / web_extractor *(secret)* |
 | `EXA_API_KEY` | — | Exa web_search / web_extractor *(secret)* |
 | `SERPLY_API_KEY` | — | Serply web_search / web_extractor *(secret)* |

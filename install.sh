@@ -88,6 +88,7 @@ CONFIG_SPEC=(
   "QWEN_MM_DUBBING_SERVER_URL|0|chatcut||external IndexTTS2/Demucs/TEN-VAD service used by video translation"
   "QWEN_MM_SEARCH_BACKEND|0|search|auto|text search backend (auto: serper > tavily > exa > serply; or choose one)"
   "SERPER_API_KEY|1|search||Serper web_search / web_extractor and Serper-only image_search"
+  "SERPER_BASE_URL|0|search|https://google.serper.dev|Serper-compatible API base URL"
   "TAVILY_API_KEY|1|search||Tavily web_search / web_extractor"
   "EXA_API_KEY|1|search||Exa web_search / web_extractor"
   "SERPLY_API_KEY|1|search||Serply web_search / web_extractor"

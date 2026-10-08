@@ -163,3 +163,7 @@ If you find this project useful in your research or work, please consider citing
 ## License
 
 Apache-2.0 — see [LICENSE](LICENSE).
+
+### Compatible search endpoints
+
+Support any Serper.dev-compatible endpoint (like litescrape.com, serpbase.dev, serpensapi.org, and others). Set `SERPER_BASE_URL` to the provider base URL without `/search` and use its API key. The existing Serper endpoint remains the default.

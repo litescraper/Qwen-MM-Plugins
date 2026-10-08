@@ -41,9 +41,11 @@ def post_serper(
     """
     import requests
 
+    from shared.env import get_env
     from shared.retry import retry_call
 
-    url = f"{SERPER_BASE}/{path}"
+    base_url = get_env("SERPER_BASE_URL") or SERPER_BASE
+    url = f"{base_url.rstrip('/')}/{path}"
     headers = {"X-API-KEY": api_key, "Content-Type": "application/json"}
 
     def _post() -> dict[str, Any]:

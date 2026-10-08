@@ -272,6 +272,7 @@ CONFIG_FIELDS: list[tuple[str, bool, str, str, str]] = [
         "",
         "Serper web_search / web_extractor and Serper-only image_search",
     ),
+    ("SERPER_BASE_URL", False, "Search providers", "https://google.serper.dev", "Serper-compatible API base URL"),
     ("TAVILY_API_KEY", True, "Search providers", "", "Tavily web_search / web_extractor"),
     ("EXA_API_KEY", True, "Search providers", "", "Exa web_search / web_extractor"),
     ("SERPLY_API_KEY", True, "Search providers", "", "Serply web_search / web_extractor"),
